@@ -1,0 +1,45 @@
+.menuSite{
+    display: flex;
+    padding: 20px 150px;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.iconesMenu{
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.menuPrincipal{
+    display: flex;
+    gap: 25px;
+}
+
+.itensMenuPrincipal{
+    color: white;
+}
+
+.itensMenuPrincipal:hover{
+    color: #e4e4e4;
+}
+
+.quantidadeCart{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #e3e3e3;
+
+}

@@ -1,0 +1,73 @@
+.fundo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: white;
+    padding: 20px 25px;
+    box-shadow: 0px 4px 40px -20px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    border-radius: 17px;
+    
+}
+
+.imgCategorias{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;    
+    border-radius: 17px;
+}
+
+.max{
+    width: 100%;
+}
+
+.organizarDados{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.preco{
+    font-size: 25px;
+}
+
+.alinharBotoes{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.carrinhoBotao{
+    width: 100%;
+    background: #FFBC41;
+    border: none;
+    padding: 10px;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.verBotao{
+    width: 100%;
+    background: #e3e3e3;
+    border: none;
+    padding: 10px;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.semEstoque{
+    display: flex;
+    width: 100%;
+    background: #e3e3e3;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    color: black;
+    border-radius: 25px;
+}

@@ -1,0 +1,137 @@
+.fundoCarrinho{
+    display: flex;
+    flex-direction: column;
+    padding: 35px 150px 55px;
+}
+
+.hr{
+    margin-top: 35px;
+}
+
+
+.headerCarrinhos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+
+
+.produtoHeader{
+    display: flex;
+    width: 40%;
+    height: auto;
+    background: #FFBC41;
+    padding: 25px;
+    border: solid 1px #5e3535;
+}
+.precoHeader{
+    display: flex;
+    width: 20%;
+    height: auto;
+    background: #FFBC41;
+    padding: 25px;
+    border: solid 1px #5e3535;
+    border-left: none;
+}
+.quantidadeHeader{
+    display: flex;
+    width: 20%;
+    height: auto;
+    background: #FFBC41;
+    padding: 25px;
+    border: solid 1px #5e3535;
+    border-left: none;
+}
+.totalHeader{
+    display: flex;
+    width: 20%;
+    height: auto;
+    background: #FFBC41;
+    padding: 25px;
+    border: solid 1px #5e3535;
+    border-left: none;
+}
+
+.carrinhoVazio{
+    margin-top: 35px;
+}
+
+
+
+.geralResultados{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 35px;
+    justify-content: end;
+    align-items: end;
+}
+
+.botaoComprar{
+    background: green;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 300ms;
+    margin-top: 25px;
+}
+
+.botaoComprar:hover{
+    transform: scale(110%);
+}
+
+.fundoValoresResultados{
+    display: flex;
+    width: 60%;
+    
+}
+
+.fundoValoresCedula01{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 15px;
+    border: solid 1px #e3e3e3;
+}
+
+.fundoValoresCedula02{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 15px;
+    border: solid 1px #e3e3e3;
+    border-left: none;
+}
+.fundoValoresCedula03{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 15px;
+    border: solid 1px #e3e3e3;
+    border-top: none;
+}
+.fundoValoresCedula04{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 15px;
+    border: solid 1px #e3e3e3;
+    border-left: none;
+    border-top: none;
+}
+
+.totalValoresProduto{
+    font-size: 15px;
+    font-weight: 700;
+}

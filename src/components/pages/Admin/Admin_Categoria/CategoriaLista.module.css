@@ -1,0 +1,35 @@
+.fundoCategoria{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    align-items: initial;
+    padding: 25px;
+    margin-top: 40px;
+    gap: 25px;
+
+    background-color: #e3e3e3;
+}
+
+.categoriaOrganizar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconesPrincipalCategoria{
+    display: flex;
+    align-items: initial;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.iconesPrincipalCat{
+    color: black;
+    
+    cursor: pointer;
+}
+
+.iconesPrincipalCat:hover{
+    transform: scale(115%);
+}

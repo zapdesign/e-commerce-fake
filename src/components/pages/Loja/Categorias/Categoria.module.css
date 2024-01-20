@@ -1,0 +1,38 @@
+.geral{
+    display: flex;
+    flex-direction: column;
+    padding: 35px 150px 55px;
+}
+
+.categorias h2{
+    font-size: 22px;
+}
+
+.alinharHeader{
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.alinhar{
+    display: flex;
+    gap: 15px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.produtoTamanho{
+    flex: 0 0 calc(33.33% - 10px);
+    height: 350px;
+}
+
+.select{
+    padding: 5px 15px;
+    border: solid 1px black;
+    border-radius: 5px;
+}

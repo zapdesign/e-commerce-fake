@@ -1,0 +1,54 @@
+.modalGeral{
+    margin-top: 25px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 155px;
+    margin-right: 180px;
+    gap: 15px;
+    padding: 10px 25px;
+
+    border: solid 1px rgb(212, 212, 212);
+    background: white;
+    border-radius: 7px;
+}
+
+.excluirTexto{
+    font-size: 15px;
+    text-align: center;
+}
+
+.separarBotoes{
+    display: flex;
+    gap: 15px;
+}
+
+.botaoConfirmar{
+    background: #ea1d2c;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.botaoCancelar{
+    background: #cfcfcf;
+    border: none;
+    padding: 10px;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.botaoCancelar:hover{
+    transform: scale(110%);
+}
+
+.botaoConfirmar:hover{
+    transform: scale(110%);
+}

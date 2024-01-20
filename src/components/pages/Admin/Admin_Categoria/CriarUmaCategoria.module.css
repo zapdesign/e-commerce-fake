@@ -1,0 +1,29 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+    margin-top: 35px;
+    width: 250px;
+}
+
+.inputForms{
+    padding: 5px 15px;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.botaoCriarCategoria{
+    width: 100%;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.botaoCriarCategoria:hover{
+    transform: scale(105%);
+}

@@ -1,0 +1,60 @@
+.menuAdmin{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: black;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    padding: 25px 50px;
+    justify-content: space-between;
+}
+
+.logoAdmin{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    color: white;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+}
+
+.alinharNavAdmin{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.ItensCadaSessao{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.itensMenuAdmin{
+    color: white;
+    font-weight: 700;
+}
+
+.itensMenuLink{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.conteudoAcessado{
+    padding: 25px 0px 25px 250px;   
+}
+
+.sairAdm{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: rgb(150, 1, 1);
+}

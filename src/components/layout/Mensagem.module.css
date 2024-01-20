@@ -1,0 +1,18 @@
+.fundoMensagem{
+    width: 100%;
+    padding: 20px;
+    border: solid 1px #e3e3e3;
+    text-align: center;
+}
+
+.bom{
+    background: rgb(202, 255, 202);
+}
+
+.ruim{
+    background: rgb(255, 213, 213);
+}
+
+.medio{
+    background: rgb(255, 249, 249)
+}
