@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@vercel/edge-config": "^0.4.1",
     "axios": "^1.6.5",
     "js-cookie": "^3.0.5",
     "json-server": "^1.0.0-alpha.18",
@@ -19,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "backend": "json-server --watch db.json --port 5000",
+    "backend": "json-server --watch db.json --port 3000",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -39,27 +39,27 @@ function App() {
   }
 
   function recarregarProdutos(filter = '', order = ''){
-    fetch(`http://localhost:5000/produtos${order}${filter}`)
+    fetch(`http://localhost:3000/welcome/0002${order}${filter}`)
     .then(resposta => resposta.json())
-    .then(data => setProdutos(data))
+    .then(data => setProdutos(data.produtos))
     .catch(error => console.error(`Erro: ${error}`));
   }
   function recarregarCategorias(order = '', filter = ''){
-    fetch(`http://localhost:5000/categorias${order}${filter}`)
+    fetch(`http://localhost:3000/welcome/0001${order}${filter}`)
     .then(resposta => resposta.json())
-    .then(data => setCategorias(data))
+    .then(data => setCategorias(data.categorias))
     .catch(error => console.error(`Erro: ${error}`));
   }
   function recarregarCarrinhos(order = '', filter = ''){
-    fetch(`http://localhost:5000/carrinho${order}${filter}`)
+    fetch(`http://localhost:3000/welcome/0003${order}${filter}`)
     .then(resposta => resposta.json())
-    .then(data => setCarrinho(data))
+    .then(data => setCarrinho(data.carrinho))
     .catch(error => console.error(`Erro: ${error}`));
   }
 
   function criar(conteudo, oque){
   
-      fetch(`http://localhost:5000/${oque}`, {
+      fetch(`http://localhost:3000/welcome/${oque}`, {
         method: 'POST',
         body: JSON.stringify(conteudo),
       })
@@ -70,7 +70,7 @@ function App() {
   
 
   function excluir(id, oque){
-      fetch(`http://localhost:5000/${oque}/${id}`,{
+      fetch(`http://localhost:3000/welcome/${oque}/${id}`,{
           method: 'DELETE'
       })
       .then(recarregarPagina)
@@ -78,7 +78,7 @@ function App() {
   }
 
   function editar(id, novosDados, oque){
-      fetch(`http://localhost:5000/${oque}/${id}`, {
+      fetch(`http://localhost:3000/welcome/${oque}/${id}`, {
         method: 'PUT',
         body: JSON.stringify(novosDados),
       })
@@ -87,7 +87,7 @@ function App() {
   }
 
   function editarPartes(id, novosDados, oque){
-      fetch(`http://localhost:5000/${oque}/${id}`, {
+      fetch(`http://localhost:3000/welcome/${oque}/${id}`, {
         method: 'PATCH',
         body: JSON.stringify(novosDados),
       })
